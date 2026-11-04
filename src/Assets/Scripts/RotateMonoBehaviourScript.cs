@@ -1,0 +1,10 @@
+using UnityEngine;
+
+public class RotateMonoBehaviourScript : MonoBehaviour
+{
+    void Update()
+    {
+        float rotationSpeed = 360.0f * Time.deltaTime / 10.0f;
+        transform.Rotate(0, rotationSpeed, 0);
+    }
+}
